@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tridian | Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+        <h1 class="text-2xl font-bold tracking-tighter text-blue-600">TRIDIAN.</h1>
+        <div class="space-x-6 hidden md:block">
+            <a href="#about" class="hover:text-blue-500 transition">Tentang</a>
+            <a href="#work" class="hover:text-blue-500 transition">Karya</a>
+            <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Kontak</a>
+        </div>
+    </nav>
+
+    <header class="max-w-6xl mx-auto px-6 py-20 text-center md:text-left flex flex-col md:flex-row items-center">
+        <div class="md:w-2/3">
+            <h2 class="text-5xl md:text-7xl font-bold mb-4">Halo, Saya <span class="text-blue-600">Tridian</span>.</h2>
+            <p class="text-xl text-slate-600 mb-8 max-w-lg">Seorang kreator yang berfokus pada inovasi, desain, dan solusi digital yang bermakna.</p>
+            <div class="flex justify-center md:justify-start gap-4">
+                <button class="bg-slate-900 text-white px-8 py-3 rounded-lg font-medium hover:bg-slate-800">Lihat Portfolio</button>
+                <button class="border border-slate-300 px-8 py-3 rounded-lg font-medium hover:bg-slate-100">CV Saya</button>
+            </div>
+        </div>
+        <div class="md:w-1/3 mt-12 md:mt-0">
+            <div class="w-64 h-64 bg-blue-100 rounded-2xl mx-auto flex items-center justify-center border-4 border-white shadow-xl rotate-3">
+                 <span class="text-blue-400 font-bold text-lg">Foto Tridian</span>
+            </div>
+        </div>
+    </header>
+
+    <footer id="contact" class="border-t border-slate-200 mt-20 py-10 text-center">
+        <p class="text-slate-500">© 2026 Tridian. Dibuat dengan semangat.</p>
+    </footer>
+
+</body>
+</html>
